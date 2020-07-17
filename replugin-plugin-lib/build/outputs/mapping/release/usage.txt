@@ -1,0 +1,94 @@
+com.qihoo360.loader2.IPlugin$Stub:
+    private static final java.lang.String DESCRIPTOR
+    static final int TRANSACTION_query
+    26:33:public static com.qihoo360.loader2.IPlugin asInterface(android.os.IBinder)
+com.qihoo360.loader2.IPlugin$Stub$Proxy
+com.qihoo360.replugin.IBinderGetter:
+    public abstract android.os.IBinder get()
+com.qihoo360.replugin.IBinderGetter$Stub
+com.qihoo360.replugin.IBinderGetter$Stub$Proxy
+com.qihoo360.replugin.MethodInvoker:
+    private static final java.lang.String TAG
+    85:85:public java.lang.ClassLoader getClassLoader()
+    89:89:public boolean isAvailable()
+com.qihoo360.replugin.RePlugin:
+    static final java.lang.String TAG
+com.qihoo360.replugin.RePlugin$ProxyRePluginVar:
+    1196:1196:RePlugin$ProxyRePluginVar()
+com.qihoo360.replugin.RePluginCompat:
+    43:43:RePluginCompat()
+com.qihoo360.replugin.RePluginEnv:
+    28:28:public RePluginEnv()
+com.qihoo360.replugin.RePluginFramework:
+    private static final java.lang.String TAG
+    31:31:public RePluginFramework()
+com.qihoo360.replugin.RePluginInternal:
+    public static final boolean FOR_DEV
+    40:40:public RePluginInternal()
+com.qihoo360.replugin.RePluginInternal$ProxyRePluginInternalVar:
+    267:267:RePluginInternal$ProxyRePluginInternalVar()
+com.qihoo360.replugin.RePluginServiceManager:
+    private static final java.lang.String TAG
+com.qihoo360.replugin.base.IPC:
+    private static final java.lang.String TAG
+com.qihoo360.replugin.base.IPC$ProxyIPCVar:
+    501:501:public IPC$ProxyIPCVar()
+com.qihoo360.replugin.helper.JSONHelper:
+    private static final boolean LOG
+    30:30:public JSONHelper()
+    60:66:public static org.json.JSONObject cloneNoThrows(org.json.JSONObject)
+com.qihoo360.replugin.helper.LogDebug
+com.qihoo360.replugin.helper.LogRelease:
+    public static final boolean LOGR
+    27:27:public LogRelease()
+    48:48:public static int v(java.lang.String,java.lang.String)
+    60:60:public static int v(java.lang.String,java.lang.String,java.lang.Throwable)
+    71:71:public static int d(java.lang.String,java.lang.String)
+    83:83:public static int d(java.lang.String,java.lang.String,java.lang.Throwable)
+    94:94:public static int i(java.lang.String,java.lang.String)
+    106:106:public static int i(java.lang.String,java.lang.String,java.lang.Throwable)
+    117:117:public static int w(java.lang.String,java.lang.String)
+    129:129:public static int w(java.lang.String,java.lang.String,java.lang.Throwable)
+    140:140:public static int w(java.lang.String,java.lang.Throwable)
+    151:151:public static int e(java.lang.String,java.lang.String)
+com.qihoo360.replugin.i.IPluginManager
+com.qihoo360.replugin.library.BuildConfig
+com.qihoo360.replugin.loader.b.PluginLocalBroadcastManager:
+    private static final java.lang.String TAG
+    private static final boolean DEBUG
+    static final int MSG_EXEC_PENDING_BROADCASTS
+com.qihoo360.replugin.model.PluginInfo:
+    private static final long serialVersionUID
+    private static final java.lang.String TAG
+    private static final int ADAPTER_COMPATIBLE_VERSION
+    private static final java.lang.String LOCAL_PLUGIN_SUB_DIR
+    private static final java.lang.String LOCAL_PLUGIN_ODEX_SUB_DIR
+    private static final java.lang.String LOCAL_PLUGIN_DATA_LIB_DIR
+    private static final java.lang.String LOCAL_PLUGIN_APK_SUB_DIR
+    private static final java.lang.String LOCAL_PLUGIN_APK_ODEX_SUB_DIR
+    private static final java.lang.String LOCAL_PLUGIN_APK_LIB_DIR
+    private static final java.lang.String LOCAL_PLUGIN_APK_COVER_DIR
+    private static final java.lang.String LOCAL_PLUGIN_INDEPENDENT_EXTRA_DEX_SUB_DIR
+    private static final java.lang.String LOCAL_PLUGIN_INDEPENDENT_EXTRA_ODEX_SUB_DIR
+    179:185:private PluginInfo(java.lang.String,int,int,int)
+    187:206:private PluginInfo(java.lang.String,java.lang.String,int,int,int,java.lang.String,int)
+    236:242:private java.lang.String makeName(java.lang.String,java.lang.String)
+    634:636:private void setVersion(int)
+    831:836:private final long buildCompareValue()
+com.qihoo360.replugin.model.PluginInfo$VMRuntimeCompat:
+    public static final java.lang.String ARM
+    public static final java.lang.String ARM64
+    850:850:private PluginInfo$VMRuntimeCompat()
+com.qihoo360.replugin.packages.PluginRunningList:
+    51:53:void setProcessInfo(java.lang.String,int)
+    56:59:void add(java.lang.String)
+    62:62:boolean isRunning(java.lang.String)
+    66:66:boolean hasRunning()
+com.qihoo360.replugin.utils.ParcelUtils:
+    29:29:public ParcelUtils()
+com.qihoo360.replugin.utils.ReflectUtils:
+    35:35:public ReflectUtils()
+    39:43:public static final void setFieldNonE(java.lang.Class,java.lang.Object,java.lang.String,java.lang.Object)
+    46:55:public static final void setField(java.lang.Class,java.lang.Object,java.lang.String,java.lang.Object)
+    60:88:public static final void dumpObject(java.lang.Object,java.io.FileDescriptor,java.io.PrintWriter,java.lang.String[])
+    95:99:public static varargs java.lang.Object invokeMethod(java.lang.ClassLoader,java.lang.String,java.lang.String,java.lang.Object,java.lang.Class[],java.lang.Object[])
